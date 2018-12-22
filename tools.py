@@ -28,7 +28,7 @@ def dump_xml(xml,attribute):
 	for i in root:
 		print(i.get(attribute))
 
-# How to use
+# How to use dump_xml
 # <element attribuite="value">element value</element>
 samplexml = '''<?xml version="1.0" encoding="ISO-8859-1"?>
 		<stat directory="/mydir">
